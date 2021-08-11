@@ -99,6 +99,7 @@ public class Database {
                 }else{
                     success = false;
                 }
+                rs.close();
                 statement.close();
                 con.close();
             }
@@ -151,6 +152,8 @@ public class Database {
             ps.setInt(10, book.getID());
             System.out.println(ps.toString());
             ps.executeUpdate();
+            ps.close();
+            con.close();
             edited = true;
         }
         catch(SQLException | ClassNotFoundException e){
