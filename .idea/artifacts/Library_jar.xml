@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Library:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Library_jar</output-path>
+    <root id="archive" name="Library.jar">
+      <element id="module-output" name="Library" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Java Jars For Importing/sqlite-jdbc-3.36.0.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="sqlite-jdbc-3.36.0.1" />
+    </root>
+  </artifact>
+</component>
